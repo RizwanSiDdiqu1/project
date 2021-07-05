@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-sacle=1.0">
+			<title>About Us</title>
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<!-- CND Font  -->
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+			<!-- Google font  -->
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,700&display=swap" rel="stylesheet">
+			<!-- favicon image links here  -->
+			<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+			<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+			<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+			<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+			<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+			<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+			<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+			<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+			<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+			<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+			<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+			<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+			<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+			<link rel="manifest" href="/manifest.json">
+			<meta name="msapplication-TileColor" content="#ffffff">
+			<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+			<meta name="theme-color" content="#ffffff">
+	</head>
+		<body>	
+			<section class="sub-header">
+				<nav>
+					<a href="home.htm">
+						<img src="img/logo.png" alt="logo">
+					</a>
+					<div class="nav_link" id="navlink">
+						<i class="fa fa-times" onclick="hidemenu()"></i>
+						<ul>
+							<li><a href="home.htm">HOME</a></li>
+							<li><a href="about.htm">ABOUT</a></li>
+							<li><a href="course.htm">COURSE</a></li>
+							<li><a href="blog.htm">BLOG</a></li>
+							<li><a href="contact.htm">CONTACT</a></li>
+
+						</ul>
+					</div>
+					<i class="fa fa-bars" onclick="showmenu()"></i>
+				</nav>
+			<h1>About Us</h1>
+			</section>
+			<!-- About Us Content -->
+			<section class="about-us">
+				<div class="row">
+					<div class="about-col">
+						<h1>We Are The Lorem ispsum !</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque minima, illo voluptatem consequuntur adipisci atque iure iusto quis neque accusantium ducimus, architecto dignissimos velit, dicta obcaecati quos iste pariatur repellendus?</p>
+						<a href="" class="main-btn red-btn">EXPLORE NOW</a>
+					</div>
+					<div class="about-col">
+						<img src="img/about.jpg" alt="about imges">
+					</div>
+				</div>
+			</section>
+
+
+
+			<!-- Footer -->
+			<hr>
+			<section class="Footer">
+				<h4>About Us</h4>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, illum iste officia excepturi eum assumenda,<br> harum aperiam ea officiis, labore velit consequatur rerum voluptatum! Expedita ullam reiciendis quam accusantium adipisci.</p>
+				<div class="icons">
+					<a href="https://twitter.com/Rizwan_SiDdiqu1" target="__blank"><i class="fa icon-size fa-twitter"></i></a>
+					<a href="" ><i class="fa  icon-size fa-instagram"></i></a>
+					<a href="https://github.com/wantedbhai" target="__blank"><i class="fa icon-size  fa-github"></i></a>
+				</div>
+					<p>Made With <i class="fa fa-heart-o"></i> By Rizwan Siddiqui</p>
+			</section>
+
+
+
+
+
+
+
+
+
+
+
+
+			<!-- javascript for toggle menu -->
+			<script>
+				var navlink = document.getElementById('navlink');
+				function showmenu(){
+					navlink.style.right = "0";
+					
+
+				}
+				function hidemenu(){
+					navlink.style.right = "500px";
+					
+				}
+			</script>
+		</body>
+</html>
